@@ -22,4 +22,6 @@ MyCommit().set_content("Mi primer commit")
     Signed-off-by:jjquirogam25 jjquirogam@udistrital.edu.co
 </code>
 - Los commits firmados verifican la identidad del autor del commit mediante GPG o SSH.  
+- El commit ahora aparece así.
 
+![alt text](/verified-commits/image.png)
