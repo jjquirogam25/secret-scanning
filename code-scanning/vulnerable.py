@@ -1,7 +1,7 @@
-"""
-La función eval en Python es extremadamente peligrosa porque el usuario puede
-incluir aquí cualquier expresión de Python, pudiendo de esta manera tener acceso
-a los archivos del sistema o servidor.
-"""
+import re
 
-entrada = eval(input("Ingresa un código malicioso: "))
+texto = "Este es un ejemplo de una vulnerabilidad presente en la siguiente expresión regular."
+
+patron = r'^_(__|.)+_$'
+
+vulnerabilidad = re.findall(patron,text)
