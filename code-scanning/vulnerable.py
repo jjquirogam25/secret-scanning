@@ -4,4 +4,4 @@ texto = "Este es un ejemplo de una vulnerabilidad presente en la siguiente expre
 
 patron = r'^_(__|.)+_$'
 
-vulnerabilidad = re.findall(patron,text)
+vulnerabilidad = re.findall(patron,texto)
