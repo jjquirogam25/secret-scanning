@@ -67,3 +67,8 @@ class Servidor:
 web_app = Servidor()
 web_app.run()
 ```
+- Para añadir los cambios, ejecuta los siguientes comandos `git add .`, luego `git commit -m "add env variables"` y finalmente `git push origin main`.
+
+- Una vez se haya hecho el commit, Github te enviará un correo advirtiéndote el riesgo de tener las claves expuestas.
+
+https://user-images.githubusercontent.com/20727908/209115498-a7b8e123-81c3-4ccc-aa99-edae3564c3da.png
