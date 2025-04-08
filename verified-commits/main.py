@@ -7,4 +7,4 @@ class MyCommit():
         print(f"Commit set to: {content}")
         self._content = content
 
-MyCommit().set_content("Mi primer commit")
+MyCommit().set_content("Mi primer commit en git")

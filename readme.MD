@@ -21,5 +21,5 @@ MyCommit().set_content("Mi primer commit")
 - <code>añadir clase commit <br>
     Signed-off-by:jjquirogam25 jjquirogam@udistrital.edu.co
 </code>
-- Los commits firmados verifican la identidad del autor del commit mediante GPG o S/MIME.
+- Los commits firmados verifican la identidad del autor del commit mediante GPG o SSH. 
 
