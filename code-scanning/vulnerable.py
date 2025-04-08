@@ -1,6 +1,6 @@
 import re
 
-texto = "Este es un ejemplo de una vulnerabilidad presente en la siguiente expresión regular."
+texto = "Este es un ejemplo de texto con una expresión regular."
 
 patron = r'^_(__|.)+_$'
 
