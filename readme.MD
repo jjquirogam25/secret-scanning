@@ -25,3 +25,18 @@ MyCommit().set_content("Mi primer commit")
 - El commit ahora aparece así.
 
 ![alt text](/verified-commits/image.png)
+# Code-scanning
+- Para este ejercicio, dirigee a la carpeta code-scanning.
+- Crea un archivo con nombre `ejemplo.py`
+- En el archivo, escribe el siguiente contenido.
+```
+import re
+texto = "Este es un ejemplo de texto con una expresión regular."
+patron = r'^_(__|.)+_$'
+vulnerabilidad = re.findall(patron,texto)
+```
+- Luego, realiza el commit con los siguientes comandos.
+- `git add .`, luego `git commit -S -m "add sample code"` y finalmente, `git push origin main`
+- Github en el repositorio lanzará el code scanner, es una herramienta que responde a el evento de 'push' que acabamos de hacer y analiza el código de forma estática para evaluar vulnerabilidades.
+- En el repositorio, se pueden apreciar los resultados del análisis.
+![alt text](/code-scanning/image.png)
